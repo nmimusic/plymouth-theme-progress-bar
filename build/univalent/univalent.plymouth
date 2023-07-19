@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=univalent
+Description=univalent
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/univalent
+ScriptFile=/usr/share/plymouth/themes/univalent/univalent.script

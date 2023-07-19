@@ -4,7 +4,7 @@ This repository includes Plymoyth themes featuring a progress bar, available in 
 
 # Screenshots
 Sorry, under developing.
-<!--<img src='screenshots/adwaita-blue-dark.png' alt='drawing' width='25%'/><img src='screenshots/adwaita-blue-light.png' alt='drawing' width='25%'/><img src='screenshots/arch-linux-branded.png' alt='drawing' width='25%'/><img src='screenshots/breeze-blue-dark.png' alt='drawing' width='25%'/><img src='screenshots/breeze-blue-light.png' alt='drawing' width='25%'/><img src='screenshots/debian-branded.png' alt='drawing' width='25%'/><img src='screenshots/fedora-branded.png' alt='drawing' width='25%'/><img src='screenshots/manjaro-branded.png' alt='drawing' width='25%'/><img src='screenshots/opensuse-branded.png' alt='drawing' width='25%'/><img src='screenshots/steam-os-branded.png' alt='drawing' width='25%'/><img src='screenshots/ubuntu-branded.png' alt='drawing' width='25%'/><img src='screenshots/fry-dark.png' alt='drawing' width='25%'/>-->
+<img src='screenshots/kamuriki.png' alt='drawing' width='25%'/><img src='screenshots/univalent.png' alt='drawing' width='25%'/>
 
 **[Screenshots folder (including encryption prompt)](https://github.com/njb-fm/Plymouth-Progress-Bar/tree/master/screenshots)**
 
@@ -18,11 +18,11 @@ To generate screenshots Python 3 with the Pillow module is required. The generat
 * **The build script will only consider as a color scheme a folder inside another folder in `color-schemes`.** So, say you want to create a theme called my-theme. You could create `color-schemes/custom/my-theme`, and it would generate build/my-theme-custom based on it.
 * The build script will also generate screenshots so you can preview your theme without rebooting.
 
-# Installing
+# Installation
 This will vary between distros, but the general rule is:
 * Your `/etc/default/grub` must contain `quiet splash` in `GRUB_CMDLINE_LINUX=`
 * Copy the theme to `/usr/share/plymouth/themes`
-* Edit `/etc/plymouth/plymouth.conf`, changing `Theme=` to match your theme (e.g. `Theme=adwaita-blue-dark`)
+* Edit `/etc/plymouth/plymouth.conf`, changing `Theme=` to match your theme (e.g. `Theme=kamuriki`)
 * Regenerate your initramfs as well as your grub.cfg (on Debian/Ubuntu should be `update-initramfs -u` and `update-grub`, both as root)
 
-## [Shin Nippon Hoso](https://github.com/1deterministic), 2023
+## [Shin Nippon Hoso](https://github.com/njb-fm), 2023

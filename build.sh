@@ -12,7 +12,7 @@ do
     for f in $i/*;
     do
         if [ -d $f ]; then (
-            name=$(basename $f)-$(basename $(dirname $f))
+            name=$(basename $f)
             
             if [ ! -d $build/$name ]; then
                 mkdir $build/$name
