@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=uve-logo
+Description=uve-logo
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/uve-logo
+ScriptFile=/usr/share/plymouth/themes/uve-logo/uve-logo.script
