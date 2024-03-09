@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=kamuriki-logo
+Description=kamuriki-logo
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/kamuriki-logo
+ScriptFile=/usr/share/plymouth/themes/kamuriki-logo/kamuriki-logo.script

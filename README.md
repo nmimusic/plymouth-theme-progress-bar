@@ -25,4 +25,4 @@ This will vary between distros, but the general rule is:
 * Edit `/etc/plymouth/plymouth.conf`, changing `Theme=` to match your theme (e.g. `Theme=kamuriki`)
 * Regenerate your initramfs as well as your grub.cfg (on Debian/Ubuntu should be `update-initramfs -u` and `update-grub`, both as root)
 
-## [Shin Nippon Hoso](https://github.com/njb-fm), 2023
+## [Naka-mura Jukebox](https://github.com/njb-fm), 2023-2024

@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=alis-logo
+Description=alis-logo
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/alis-logo
+ScriptFile=/usr/share/plymouth/themes/alis-logo/alis-logo.script
