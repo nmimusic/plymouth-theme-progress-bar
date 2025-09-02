@@ -4,9 +4,9 @@ This repository includes Plymoyth themes featuring a progress bar, available in 
 
 # Screenshots
 Sorry, under developing.
-<img src='screenshots/kamuriki.png' alt='drawing' width='25%'/><img src='screenshots/univalent.png' alt='drawing' width='25%'/>
+<img src='screenshots/kamuriki.png' alt='drawing' width='25%'/><img src='screenshots/kamuriki.png' alt='drawing' width='25%'/>
 
-**[Screenshots folder (including encryption prompt)](https://github.com/njb-fm/Plymouth-Progress-Bar/tree/master/screenshots)**
+**[Screenshots folder (including encryption prompt)](https://github.com/nmimusic/Plymouth-Progress-Bar/tree/master/screenshots)**
 
 # Building
 Just run `build.sh` from the project folder. It will create a folder called `build`, where all color schemes will be available with their own folders.
@@ -25,4 +25,4 @@ This will vary between distros, but the general rule is:
 * Edit `/etc/plymouth/plymouth.conf`, changing `Theme=` to match your theme (e.g. `Theme=kamuriki`)
 * Regenerate your initramfs as well as your grub.cfg (on Debian/Ubuntu should be `update-initramfs -u` and `update-grub`, both as root)
 
-## [Naka-mura Jukebox](https://github.com/njb-fm), 2023-2024
+## [Nakamura Musical Industries](https://github.com/nmimusic), 2023-2025
